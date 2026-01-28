@@ -1,0 +1,18 @@
+# Mac System Files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Evidence images (Don't upload these!)
+*.jpg
+*.png
+
+# Virtual Environments (if you ever use them)
+venv/
+env/
+.env
+
+# VS Code settings
+.vscode
