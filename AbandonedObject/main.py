@@ -60,6 +60,7 @@ class CentroidTracker:
                 usedRows.add(row)
                 usedCols.add(col)
 
+
             unusedRows = set(range(0, D.shape[0])).difference(usedRows)
             unusedCols = set(range(0, D.shape[1])).difference(usedCols)
 
